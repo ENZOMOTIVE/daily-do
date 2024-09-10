@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import TaskForm from './components/TaskForm';
-import Dashboard from './components/Dashboard';
+import TaskForm from './components/TaskForm/taskform';
+import Dashboard from './components/Dashboard/dashboard';
 import './App.css'; // Add your global styles
 
 function App() {
