@@ -1,39 +1,23 @@
 # Daily Do
 
-## Project Tags
+> Daily Do is a React frontend project focused on a browser-based user experience.
 
-- `Full Stack`
+## The Story
 
-## Overview
+Daily Do starts with a simple goal: create a browser experience that is simple to open, inspect, and iterate on. Its shape tells the same story: the product interface sits at the center so a maintainer can understand the project before diving into individual files.
 
-Daily Do is a full-stack application with separate frontend and backend pieces.
+## What It Includes
 
-## Features
+- A user-facing surface for the product, demo, dashboard, or static experience.
 
-- User-facing frontend or app interface
-- Backend service, API, websocket, bot, or server workflow
+## How It Is Put Together
 
-## Tech Stack
+| Path | Role |
+| --- | --- |
+| `.gitattributes` | project file or folder |
+| `dailydo` | project file or folder |
 
-- React
-- Node.js
-- JavaScript
-- HTML
-- CSS
-
-## Project Structure
-
-- `.gitattributes` - project file or directory
-- `dailydo` - project file or directory
-
-## Getting Started
-
-### Prerequisites
-
-- Git
-- Node.js 18+
-
-### Setup and Run
+## Local Development
 
 ```bash
 git clone https://github.com/ENZOMOTIVE/daily-do.git
@@ -46,30 +30,35 @@ npm install
 npm start
 ```
 
-## Commands
+## Command Surface
 
-- `dailydo/package.json`: `start`, `build`, `test`, `eject`
+| Area | Commands |
+| --- | --- |
+| `dailydo/package.json` | `start`, `build`, `test`, `eject` |
 
 ## Configuration
 
-- Document required service ports, database URLs, and API credentials before deployment.
+- No runtime secrets are required for the current files. Add an `.env.example` once local configuration becomes part of the project.
 
-## Testing and Quality
+## Quality Checks
 
 - From `dailydo`, run `npm test`.
 - From `dailydo`, run `npm run build`.
 
-## Documentation Notes
+## Where To Take It Next
 
-- Keep this README aligned with the actual source layout and commands.
-- Add screenshots, API examples, contract addresses, or deployment links when they become stable.
-- Update the project tags when the scope changes.
+- Add screenshots or a short user flow so visitors can see the interface before running it.
+- Keep setup commands current whenever dependencies, scripts, or deployment targets change.
+- Record important product decisions here so the repository keeps its story as the code evolves.
 
-## Contributing
+## Project Metadata
 
-1. Create a focused branch for the change.
-2. Update code and documentation together.
-3. Run the relevant checks before opening a pull request.
+| Field | Details |
+| --- | --- |
+| Repository | `ENZOMOTIVE/daily-do` |
+| Categories | `Full Stack` |
+| Primary stack | React, Node.js, JavaScript, HTML, CSS |
+
 
 ## License
 
